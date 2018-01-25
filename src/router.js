@@ -9,9 +9,9 @@ import singleBlog from './components/singleBlog.vue';
 Vue.use(VueRouter)
 
 const routes = [
-    { path: '/', component: showBlogs},
-    { path: '/add', component: addBlog},
-    { path: '/blog/:id', component: singleBlog}
+    { path: '/', component: showBlogs },
+    { path: '/add', component: addBlog },
+    { path: '/blog/:id', component: singleBlog }
 
 ]
 
